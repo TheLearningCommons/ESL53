@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="ESL53style.css">
+
+<style>
+</style>
+</head>
+<body>
+<p><h1>Breakfast</h1></p>
+<p>Start the day off right by choosing non ultraprocessed breakfast foods. Browse your options by selecting an image. This will reveal the name and caloric information of the breakfast food item.</p>
+<img src="https://libapps.s3.amazonaws.com/accounts/283153/images/Kitchen.png" alt="Kitchen with breakfast items" usemap="#kitchenmap">
+<map id="breakfastMap" name="kitchenmap">
+	<area shape="rect" coords="1044,144,1166,159" alt="Jimmy Dean Breakfast Sandwich" href="#jimmydean" id="jimmyDean" class ="food">
+	<area shape="rect" coords="1037,176,1166,161" alt="Banquet Brown N' Serve Sausage" href="#banquet" id="banquet" class ="food">
+	<area shape="rect" coords="1036,178,1166,193" alt="Smart Ones Cheesy Scramble with Hashbrowns" href="#smartones" id="smartones" class ="food">
+	<area shape="rect" coords="1036,206,1164,192" alt="Curbside Meat Lovers Breakfast Bowl" href="#curbside" id="breakfastBowl" class ="food">
+	<area shape="rect" coords="1037,207,1166,223" alt="Devour All Day Breakfast Steak N' Eggs with Creamy Gravy" href="#devour" id="devour" class ="food">
+	<area shape="poly" coords="1050,434,1129,434,1137,459,1131,467,1133,476,1133,501,1044,499,1044,482,1054,467,1041,459" alt="Eggs" href="#eggs" class ="food" id="eggs">
+	<area shape="poly" coords="1063,256,1128,254,1138,259,1140,265,1142,271,1140,280,1135,287,1127,294,1060,295,1051,291,1047,282,1045,273,1051,263" alt="Breakfast Burrito" href="#burrito" id="burrito" class ="food">
+	<area shape="poly" coords="1118,245,1212,244,1214,295,1138,292,1141,285,1147,275,1150,267,1138,255,1121,255" alt="Homestyle Eggos" href="#eggos" class ="food" id="eggos">
+	<area shape="rect" coords="1219,252,1338,296" alt="Hashbrowns" href="#hashbrowns" class ="food" id="hashbrowns">
+	<area shape="poly" coords="1177,440,1137,492,1140,507,1232,517,1252,484,1250,469,1252,455,1261,446" alt="Leftover Pizza" href="#pizza" class ="food" id="pizza">
+	<area shape="poly" coords="1305,432,1319,438,1328,448,1336,457,1323,488,1317,492,1305,502,1292,505,1279,507,1259,502,1254,484,1252,469,1259,454,1273,446,1284,436" alt="Muffin" href="#muffin" class ="food" id="muffin">
+	<area shape="poly" coords="1041,523,1089,525,1089,536,1096,544,1098,630,1077,638,1031,638,1031,551,1041,532" alt="Milk" href="#milk" class ="food" id="milk">
+	<area shape="poly" coords="1140,567,1140,630,1127,636,1106,634,1100,632,1098,567,1102,553,1112,551,1133,551" alt="Coke" href="#coke" class ="food" id="coke">
+	<area shape="poly" coords="1152,528,1194,530,1202,551,1202,630,1183,638,1142,634,1142,555,1152,538" alt="Orange Juice" href="#orangejuice" class ="food" id="juice">
+	<area shape="poly" coords="1223,551,1225,565,1232,573,1231,630,1225,638,1208,636,1202,624,1204,571,1211,550" alt="Water" href="#water" class ="food" id="water">
+	<area shape="poly" coords="1275,551,1313,563,1313,580,1332,596,1332,613,1321,624,1305,630,1282,634,1267,634,1248,630,1232,619,1232,588,1248,567" alt="Pancakes" href="#pancakes" class ="food" id="pancakes">
+	<area shape="poly" coords="682,311,682,457,753,455,755,333,807,331,807,311" alt="Trix Cereal" href="#trixcereal" class ="food" id="trix">
+	<area shape="poly" coords="461,381,619,381,663,454,663,478,624,503,442,502,442,473,500,450,471,398,454,398" alt="Donuts" href="#donuts" class ="food" id="donuts">
+	<area shape="poly" coords="262,363,233,375,231,434,244,438,252,448,252,478,310,492,333,469,331,377" alt="Whole Wheat Cereal" href="#wholewheatcereal" class ="food" id="total">
+	<area shape="poly" coords="216,434,237,436,248,444,252,457,252,484,214,502,200,500,193,509,154,498,166,459,164,455,185,440" alt="Wheat Bread" href="#wheatbread" class ="food" id="wheatbread">
+	<area shape="poly" coords="45,496,31,477,20,457,18,427,47,427,53,413,66,404,81,402,93,406,97,415,110,409,122,407,135,415,141,423,158,423,154,446,150,463,141,482,131,500" alt="Apple" href="#apple" class ="food" id="apple">
+</map>
+
+<div id="foodModal" class="modal">
+	<span class="exit">&times;</span>
+	<img class="foodModalImages" id="kitchen1">
+	<div id="captionModal"></div>
+</div>
+<script src="ESL53script.js"></script>
+</body>
+
+
+</html>
